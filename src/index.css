@@ -1,0 +1,146 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Styles for input field */
+input {
+  padding: 10px;
+  margin: 10px;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Styles for button */
+button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* Button hover effect */
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Optional: Style the body for better alignment */
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f4f4f4;
+}
+/* Container for Login and Sign Up (top-right corner) */
+.auth-container {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 100;
+}
+
+.auth-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.auth-button:hover {
+  background-color: #0056b3;
+}
+
+/* Styling for body */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  height: 100vh; /* Full viewport height */
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  text-align: center; /* Center the text */
+  background-image: url('https://ehttps://th.bing.com/th/id/R.8a23b780b5ace8206b5f585bc92a529d?rik=fde2ia2dcAJ1vA&riu=http%3a%2f%2fwallup.net%2fwp-content%2fuploads%2f2016%2f01%2f129462-3D-simple_background.jpg&ehk=V9UlAHbsNv%2fWKQJuei4G4PiZjLSJ3FzB7diQwVsH6ZQ%3d&risl=&pid=ImgRaw&r=0xample.com/path/to/your/background-image.jpg'); /* Replace with your image URL */
+  background-size: cover; /* Make sure the image covers the entire screen */
+  background-position: center; /* Center the background image */
+  background-repeat: no-repeat; /* Prevent image repetition */
+  background-attachment: fixed; /* Ensure the background image stays fixed */
+}
+
+/* Main content styles */
+.main-content {
+  text-align: center;
+  font-size: 36px;
+  color: #333;
+  background: rgba(255, 255, 255, 0.3); /* Transparent background with slight opacity */
+  padding: 30px;
+  border-radius: 10px;
+  width: 80%; /* Make sure it's responsive */
+  max-width: 600px; /* Set a max-width to keep the container size reasonable */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Optional: Slight shadow for better visibility */
+}
+
+/* Title Styling */
+h1 {
+  font-size: 48px;
+  margin: 0;
+}
+
+/* Textbox for entering abstract */
+.input-container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-container input {
+  padding: 12px;
+  width: 80%;
+  max-width: 500px;
+  margin: 10px 0;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+/* Button for submitting abstract */
+.search-button {
+  padding: 12px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 200px;
+}
+
+.search-button:hover {
+  background-color: #218838;
+}
+
+
+
+
+
